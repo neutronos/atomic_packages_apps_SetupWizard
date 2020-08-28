@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2016 The CyanogenMod Project
-     Copyright (C) 2017 The LineageOS Project
+     Copyright (C) 2017 The NeutronOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -29,11 +29,12 @@
         android:layout_width="match_parent"
         android:layout_height="0px"
         android:layout_weight="1"
-        android:src="@drawable/logo"
         android:adjustViewBounds="true"
-        android:scaleType="fitCenter"
         android:gravity="center"
-        android:padding="@dimen/content_margin_left"/>
+        android:layout_marginHorizontal="64dp"
+        android:padding="@dimen/content_margin_left"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
 
     <com.google.android.setupdesign.view.NavigationBar
         android:id="@+id/navigation_bar"
